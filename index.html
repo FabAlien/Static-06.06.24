@@ -1,23 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Head = Informasjon til nettleser -->
   <head>
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
+  <!-- Body = Informasjon som synes på nettsiden -->
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+    <header>
+
+    </header>
+
     <main>
-      <h1>Home page</h1>
+      <h1>Nettside 01</h1>
+      <p>Første <br>nettside <br>for <br>kodeloftet</p>
+
+      <h2>Et Skjema:</h2>
+      <form action="/action_page.php" method="get">
+        <input type="checkbox"  name="number1"  value="1">
+        <label for="number1"> Nummer 1  </label><br>
+        <input type="checkbox"  name="number2"  value="2">
+        <label for="number2"> Nummer 2  </label><br>
+        <input type="checkbox"  name="number3"  value="3">
+        <label for="number3"> Nummer 3  </label><br><br>
+      </form>
+      <button>En ubrukelig knapp</button>
+
+      <h3>En liste:</h3>
+      <style>ul {text-align: center;}</style>
+      <ul>
+        <li>Første</li>
+        <li>Andre</li>
+        <li>Tredje</li>
+      </ul>
+
+      <img src="Skyskraper.jpg" alt="Skyskraper"  height="400">
     </main>
+
+    <footer>
+
+    </footer>
   </body>
 </html>
